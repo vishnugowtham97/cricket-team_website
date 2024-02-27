@@ -805,7 +805,7 @@ img {
   -webkit-mask-image: url("");
   -webkit-mask-size: 100% auto;
   -webkit-mask-repeat: no-repeat;
-  mask-image: url("https://i.pinimg.com/736x/d0/3e/ac/d03eac783c60b4aac906a2d678df172e.jpg");
+  mask-image: url("./images/item-4.jpg");
   mask-size: 100% auto;
   mask-repeat: no-repeat;
   transition: background 1s ease-in-out;
