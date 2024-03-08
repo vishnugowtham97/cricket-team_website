@@ -11,6 +11,11 @@
   <!--=============== CSS ===============-->
   <link rel="stylesheet" href="./assets/style.css" />
 
+    <!--=============== AOS CDN ===============-->
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
   <title>XII - VIKING</title>
 </head>
 
@@ -112,7 +117,7 @@
   </main> -->
   <div class="logos">
     <button class="custom-button" data-text="Awesome">
-      <h2>
+      <h2 data-aos="fade-right" data-aos-duration="1250" data-aos-offset="200">
         <span class="actual-text">&nbsp;XII-VIKINGS&nbsp;</span>
       </h2>
       <h2>
@@ -120,7 +125,7 @@
       </h2>
     </button>
     <button class="playnow">
-      <h2><span>PLAY NOW</span></h2>
+      <h2 data-aos="zoom-in-down" data-aos-duration="1450" data-aos-offset="200"><span>PLAY NOW</span></h2>
     </button>
   </div>
 
@@ -173,7 +178,7 @@
       </p>
       <br />
       <button class="cta">
-        <span class="hover-underline-animation"> see more </span>
+        <span class="hover-underline-animation" data-aos="fade-right" data-aos-duration="700" data-aos-offset="200"> see more </span>
         <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 46 16">
           <path id="Path_10" data-name="Path 10"
             d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" transform="translate(30)"></path>
@@ -185,7 +190,7 @@
 
 
   <!--==================== Awards ====================-->
-  <section class="awards" id="awards">
+  <section class="awards" id="awards" data-aos="zoom-out" data-aos-duration="1250" data-aos-offset="200">
     <div class="carousel">
       <div class="list">
         <div class="item active" style="
@@ -282,7 +287,7 @@
     </div>
   </section>
 
-  <section id="section_counter">
+  <section id="section_counter" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200">
     <div class="container">
       <h1 class="section-heading">We've completed</h1>
     </div>
@@ -314,7 +319,7 @@
 
 
   <!--=============== Member ===============-->
-  <section id="member">
+  <section id="member" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200">
     <div class="match_details">
       <h2>Club Players</h2>
     </div>
@@ -426,14 +431,16 @@
 
   <section class="matches" id="matches">
     <div class="match_details">
-      <h2>Upcomming match</h2>
+      <h2 data-aos="fade-right" data-aos-duration="1250" data-aos-offset="200">Upcomming match</h2>
       <div class="logos-1">
         <button class="clashes">
-          <h2><span>XII-Vikings vs RedBull Warriors</span></h2>
+          <h2 data-aos="fade-right" data-aos-duration="1250" data-aos-offset="200"><span>XII-Vikings vs RedBull Warriors</span></h2>
         </button>
       </div>
     </div>
-    <div class="container">
+    <div class="container" data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
       <div class="container-segment">
         <div class="segment-title">Hours</div>
         <div class="segment">
@@ -504,9 +511,9 @@
   </section>
 
   <!--=============== Profile Card ===============-->
-  <section class="player_Pro">
+  <section data-aos="fade-right" class="player_Pro">
     <h2 class="top_play">Top Performer of the week</h2>
-    <div class="profile-card">
+    <div data-aos="fade-right" class="profile-card">
       <div class="container">
         <article class="card_article">
           <div class="card_profile">
@@ -555,7 +562,7 @@
       </div>
     </div>
 
-    <div class="profile-card">
+    <div data-aos="fade-right" class="profile-card">
       <div class="container">
         <article class="card_article">
           <div class="card_profile">
@@ -667,7 +674,7 @@
   </section>
 
   <!--=============== Packages ===============-->
-  <section class="plans">  
+  <section class="plans" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200">  
     <h2>Join Our Community</h2>
     <div class="packages">
     <div class="pack_card">
@@ -723,7 +730,9 @@
       </div>
     </div>
     <!-- Basic Plan -->
-    <div class="pack_card">
+    <div class="pack_card" data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
       <div class="banner">
         <span class="banner_tag">Basic Plan</span>
       </div>
@@ -770,7 +779,7 @@
     </div>
 
     <!-- Professional Plan -->
-    <div class="pack_card">
+    <div class="pack_card" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="200">
       <div class="banner">
         <span class="banner_tag">Professional Plan</span>
       </div>
@@ -1000,6 +1009,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+      <!-- AOS CDN Link -->
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>   
   <script src="./assets/script.js"></script>
 </body>
 
